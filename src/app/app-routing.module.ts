@@ -4,6 +4,9 @@ import {CustomerStrankaComponent} from "./customer-stranka/customer-stranka.comp
 import {KnihaStrankaComponent} from "./kniha-stranka/kniha-stranka.component";
 import {BorrowingStrankaComponent} from "./borrowing-stranka/borrowing-stranka.component";
 import {MenuComponent} from './menu/menu.component';
+import {CarStrankaComponent} from "./car-stranka/car-stranka.component";
+import {BrandStrankaComponent} from "./brand-stranka/brand-stranka.component";
+
 
 
 const routes: Routes = [
@@ -18,6 +21,14 @@ const routes: Routes = [
   {
     path: 'borrowings',
     component: BorrowingStrankaComponent
+  },
+  {
+    path: 'cars',
+    component: CarStrankaComponent
+  },
+  {
+    path: 'brands',
+    component: BrandStrankaComponent
   },
   {
     path: '',

@@ -15,6 +15,13 @@ import {HttpClientModule} from "@angular/common/http";
 import {BorrowingZoznamComponent} from "./borrowing-zoznam/borrowing-zoznam.component";
 import {BorrowingStrankaComponent} from "./borrowing-stranka/borrowing-stranka.component";
 import {BorrowingFormularComponent} from "./borrowing-formular/borrowing-formular.component";
+import { CarFormularComponent } from './car-formular/car-formular.component';
+import { CarZoznamComponent } from './car-zoznam/car-zoznam.component';
+import { CarStrankaComponent } from './car-stranka/car-stranka.component';
+import { BrandFormularComponent } from './brand-formular/brand-formular.component';
+import { BrandZoznamComponent } from './brand-zoznam/brand-zoznam.component';
+import { BrandStrankaComponent } from './brand-stranka/brand-stranka.component';
+
 
 
 @NgModule({
@@ -29,7 +36,13 @@ import {BorrowingFormularComponent} from "./borrowing-formular/borrowing-formula
     CustomerFormularComponent,
     CustomerStrankaComponent,
     CustomerZoznamComponent,
-    MenuComponent
+    MenuComponent,
+    CarFormularComponent,
+    CarZoznamComponent,
+    CarStrankaComponent,
+    BrandFormularComponent,
+    BrandZoznamComponent,
+    BrandStrankaComponent,
   ],
   imports: [
     BrowserModule,
